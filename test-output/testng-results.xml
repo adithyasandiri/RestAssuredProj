@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[*************creating a user***********]]>
+    </line>
+    <line>
+      <![CDATA[************* user is created***********]]>
+    </line>
+    <line>
+      <![CDATA[*************Retrivening the user by name***********]]>
+    </line>
+    <line>
+      <![CDATA[*************user Retrived***********]]>
+    </line>
+    <line>
+      <![CDATA[*************Updating the user***********]]>
+    </line>
+    <line>
+      <![CDATA[*************User is Updated***********]]>
+    </line>
+    <line>
+      <![CDATA[*************Deleting a user***********]]>
+    </line>
+    <line>
+      <![CDATA[*************User is Deleted ***********]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-05-31T18:12:10 IST" name="PetStoreSuite" finished-at="2023-05-31T18:12:21 IST" duration-ms="11066">
+    <groups>
+    </groups>
+    <test started-at="2023-05-31T18:12:10 IST" name="PetTest" finished-at="2023-05-31T18:12:21 IST" duration-ms="11066">
+      <class name="api.tests.UserTest">
+        <test-method is-config="true" signature="setupData()[pri:0, instance:api.tests.UserTest@1a482e36]" started-at="2023-05-31T18:12:10 IST" name="setupData" finished-at="2023-05-31T18:12:11 IST" duration-ms="254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupData -->
+        <test-method signature="testPost()[pri:1, instance:api.tests.UserTest@1a482e36]" started-at="2023-05-31T18:12:11 IST" name="testPost" finished-at="2023-05-31T18:12:15 IST" duration-ms="4388" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[*************creating a user***********]]>
+            </line>
+            <line>
+              <![CDATA[************* user is created***********]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testPost -->
+        <test-method signature="testGetUserByName()[pri:2, instance:api.tests.UserTest@1a482e36]" started-at="2023-05-31T18:12:15 IST" name="testGetUserByName" finished-at="2023-05-31T18:12:17 IST" duration-ms="1493" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[*************Retrivening the user by name***********]]>
+            </line>
+            <line>
+              <![CDATA[*************user Retrived***********]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testGetUserByName -->
+        <test-method signature="testUpdateUserByUsername()[pri:3, instance:api.tests.UserTest@1a482e36]" started-at="2023-05-31T18:12:17 IST" name="testUpdateUserByUsername" finished-at="2023-05-31T18:12:19 IST" duration-ms="2842" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[*************Updating the user***********]]>
+            </line>
+            <line>
+              <![CDATA[*************User is Updated***********]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testUpdateUserByUsername -->
+        <test-method signature="testDeleteUserByName()[pri:4, instance:api.tests.UserTest@1a482e36]" started-at="2023-05-31T18:12:19 IST" name="testDeleteUserByName" finished-at="2023-05-31T18:12:21 IST" duration-ms="1521" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[*************Deleting a user***********]]>
+            </line>
+            <line>
+              <![CDATA[*************User is Deleted ***********]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testDeleteUserByName -->
+      </class> <!-- api.tests.UserTest -->
+    </test> <!-- PetTest -->
+  </suite> <!-- PetStoreSuite -->
+</testng-results>
